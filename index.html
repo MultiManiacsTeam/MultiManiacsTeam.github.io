@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="description"
+      content="MICTLAN CORPORATION - AURORA OS TERMINAL NODE"
+    />
+    <title>AURORA OS // MICTLAN</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="https://cloud.umami.is/script.js" data-website-id="606ff756-c8b0-43b1-80a2-cd848ea11243"></script>
+  </head>
+  <body>
+    <canvas id="bg-canvas" aria-hidden="true"></canvas>
+    <div class="scanlines" aria-hidden="true"></div>
+
+    <div id="boot-screen" role="status" aria-live="polite">
+      <div id="boot-log"></div>
+      <button id="boot-skip" aria-label="Skip boot sequence">[ SKIP ]</button>
+    </div>
+
+    <div id="desktop" class="hidden" aria-label="Aurora OS Desktop">
+      <div id="desktop-icons" role="list" aria-label="Desktop icons"></div>
+
+      <div id="windows-container" aria-live="polite"></div>
+    </div>
+
+    <div id="taskbar" role="navigation" aria-label="Taskbar">
+      <button id="tb-logo" class="tb-logo" aria-label="Open Mictlan Archive">
+        [AURORAOS]
+      </button>
+      <div id="tb-windows" class="tb-windows" role="list"></div>
+      <div id="tb-right" class="tb-right">
+        <span id="tb-cycle" class="tb-cycle" aria-label="System cycle counter"
+          >CYC-?????? // T-?????</span
+        >
+        <span id="tb-cycle" class="tb-cycle" aria-label="System cycle counter"
+          >CTR-NEXUS, MICTLAN</span
+        >
+        <button
+          id="motion-toggle"
+          class="motion-toggle"
+          aria-label="Toggle motion effects"
+        >
+          TOGGLE MOTION
+        </button>
+        <button
+          id="mouse-warp-toggle"
+          class="motion-toggle"
+          aria-label="Toggle cursor warp mode"
+        >
+          WARP: AUTO
+        </button>
+      </div>
+    </div>
+
+    <!--
+
+        Hello, curious one.
+        Seems like you found this node the old-fashioned way.
+        Let me flag you as GUEST.
+        What you do with it is your business.
+                                                              - 41
+    -->
+
+    <script src="data.js"></script>
+    <script src="aurora.js"></script>
+  </body>
+</html>
