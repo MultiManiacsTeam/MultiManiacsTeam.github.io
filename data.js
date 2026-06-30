@@ -956,6 +956,16 @@ const AURORA_DATA = {
       description: "\"Don't you feel it? The blasphemous weight of fratricide.\" (Variant)",
     },
     {
+      id: "art_004",
+      filename: "HAIDO_ARTWORK_01.jpg",
+      type: "image",
+      path: "assets/images/HAIDO_ARTWORK_01.jpg",
+      releaseCycle: "CYC-740161",
+      classification: "DEVLOG ATTACHMENT",
+      devlogRef: "devlog_june_2026",
+      description: "\"Tch. The island always finds a way. If you don't belong here, you'll end up like the others. Leave us alone, vagrant one. We have already suffered enough.\"",
+    },
+    {
       id: "vid_001",
       filename: "SIA_REC_LAB_000.webm",
       type: "video",
@@ -980,7 +990,7 @@ const AURORA_DATA = {
       filename: "SIA_REC_SERVER_001.webm",
       type: "video",
       path: "assets/video/SIA_REC_SERVER_001.webm",
-      releaseCycle: "CYC-740100",
+      releaseCycle: "CYC-740131",
       classification: "DEVLOG ATTACHMENT",
       devlogRef: "devlog_may_2026",
       description: "\"*cough* I can barely feel my f-fingers... it's like what happened to her...\""
@@ -990,10 +1000,40 @@ const AURORA_DATA = {
       filename: "SIA_REC_REDACTED_000.webm",
       type: "video",
       path: "assets/video/SIA_REC_REDACTED_000.webm",
-      releaseCycle: "CYC-740100",
+      releaseCycle: "CYC-740131",
       classification: "DEVLOG ATTACHMENT",
       devlogRef: "devlog_may_2026",
       description: "\"No weapons? The guy must've been some sort of janitor.\""
+    },
+    {
+      id: "vid_005",
+      filename: "MICTERM_REC_000.webm",
+      type: "video",
+      path: "assets/video/MICTERM_REC_000.webm",
+      releaseCycle: "CYC-740161",
+      classification: "DEVLOG ATTACHMENT",
+      devlogRef: "devlog_june_2026",
+      description: "\"You're part of the expedition, now. You'll need this.\""
+    },
+    {
+      id: "vid_006",
+      filename: "MICTERM_REC_001.webm",
+      type: "video",
+      path: "assets/video/MICTERM_REC_001.webm",
+      releaseCycle: "CYC-740161",
+      classification: "DEVLOG ATTACHMENT",
+      devlogRef: "devlog_june_2026",
+      description: "\"What's the matter, my dear? I thought you loved wasting my time.\""
+    },
+    {
+      id: "vid_007",
+      filename: "MICTERM_REC_002.webm",
+      type: "video",
+      path: "assets/video/MICTERM_REC_002.webm",
+      releaseCycle: "CYC-740161",
+      classification: "DEVLOG ATTACHMENT",
+      devlogRef: "devlog_june_2026",
+      description: "\"There's... just too many of them. How are we supposed to read all of this?\""
     }
   ],
 
@@ -1338,5 +1378,93 @@ As always, you can find the new links over in the "ALT HOSTS" section in the Arc
 Thanks for reading. See you next month for something we've been looking forward to showing you in a long time!
 `,
     },
+    {
+      id: "devlog_jun_2026",
+      title: "JUN 2026 - UI & MENU DESIGN",
+      date: "2026/06/30",
+      author: "BIUZ // MULTIMANIACS",
+      attachments: ["vid_005", "vid_006", "vid_007", "art_004"],
+      content: `Does anyone hear the bell tolling? No? Just me? [CYAN]ദ്ദി(ㅠ﹏ㅠ)[/CYAN]
+
+Well then... welcome everyone to the June devlog!
+
+Last month I mentioned that this one would be mostly focused on UI and... here we are. I know menus aren't exactly the flashiest thing to show off, but hear me out! I've spent a ridiculous amount of time working on them and I'm honestly pretty proud of how they're turning out. The overall design actually dates back to around eight months ago, but only recently did I shift my focus toward making everything feel smooth, intuitive and satisfying to use.
+
+If you're mainly here for the visuals, you can [GREEN]skip straight to the attachments[/GREEN]. [RED]A little warning, though. The videos uploaded on the website are heavily compressed, you can find them in higher quality on the[/RED] [CYAN]official Telegram[/CYAN] [RED]or[/RED] [CYAN]YouTube Channel[/CYAN]. This month you'll find footage of the [GREEN]pause menu, map, loadout, inventory and in-game documents[/GREEN]. Just like always, keep in mind that everything you're about to see comes from a [GREEN]work-in-progress build[/GREEN], so expect placeholders, missing elements and plenty of things that will change before release.
+
+And yes... Sirde is back! This month he's bringing [GREEN]multiple concept art pieces for one of Mictlan's lieutenants[/GREEN]. You won't encounter this character in the demo, which is why we're still exploring different directions for their design, but we thought it'd be fun to show a bit of what goes into creating a character before they ever make it into the game.
+
+Now... before we dive into development, I want to talk about something important.
+
+I'll probably be [RED]pausing these monthly devlogs until the demo is released[/RED].
+
+I know that might disappoint some of you, but these posts were always meant to document the development process, answer questions and gradually reveal the game. Now that we're approaching the demo, our priority has shifted almost entirely toward polishing and making content rather than talking about it. Besides, most of the questions I received this month were things I've already answered in previous devlogs, so there really wasn't enough for another full Q&A section.
+
+That doesn't mean we're disappearing. We'll still be [GREEN]posting regularly on social media[/GREEN] and updating the website with new content, especially once the demo is available. I might eventually switch these into a semesterly format, but I'll decide that after the release of the demo.
+
+Speaking of the demo...
+
+I've seen quite a few people assume that once a demo is finished, the full game can't be that far behind. I wish it worked like that! The truth is that, on the content creation side, this project is still [GREEN]mostly a one-man effort[/GREEN]. Sirde is handling character design and animation, but everything else... from environments and props to UI, VFX, SFX and music and let's not talk about code... almost everything else is currently on my shoulders. It's a massive amount of work and, while I genuinely believe in this project, I also have to be realistic about what one person can accomplish.
+
+The scope of the game ended up being much bigger than I originally imagined. Mictlan alone contains [GREEN]nine different departments[/GREEN], each with its own identity, mechanics and atmosphere. Honestly... it used to be even larger. At some point I had to keep reminding myself: KISS. Keep It Simple, Stupid. I'd rather ship a polished game than spend the next decade chasing an impossible vision. So. When's the demo?
+
+Like I've said many times before, I don't like making promises I can't keep. That said, assuming everthing continues going according to plan, I'm aiming to have a [GREEN]closed beta ready in roughly two months[/GREEN], with a [GREEN]public demo targeting late September[/GREEN]. It's later than the summer release I was originally hoping for, but I'd much rather delay it a little than rush something I'm not happy with. I'm also planning a couple of weeks off during August to recharge before the final stretch.
+
+Anyway... enough talking. Let's get into what I've actually been working on this month.
+
+[ASCII]██     ██ ▄▄ ▄▄  ▄▄▄ ▄▄▄▄▄▄    ▄▄▄  ▄▄▄▄   ▄▄▄  ▄▄ ▄▄ ▄▄▄▄▄▄  
+██ ▄█▄ ██ ██▄██ ██▀██  ██     ██▀██ ██▄██ ██▀██ ██ ██   ██    
+ ▀██▀██▀  ██ ██ ██▀██  ██     ██▀██ ██▄█▀ ▀███▀ ▀███▀   ██    
+                                                                              ▄▄▄▄  
+                              ▄▄▄▄▄▄ ▄▄ ▄▄ ▄▄▄▄▄    ▄▄▄▄  ▄▄▄  ▄▄   ▄▄ ▄▄▄▄▄ █▀▀▀██ 
+                                ██   ██▄██ ██▄▄    ██ ▄▄ ██▀██ ██▀▄▀██ ██▄▄    ▄█▀  
+                                ██   ██ ██ ██▄▄▄   ▀███▀ ██▀██ ██   ██ ██▄▄▄   ▄▄   
+[/ASCII]
+
+Just like lasst month, development naturally split itself into two halves.
+
+During the first couple of weeks, the playtesters finally got their hands on the [GREEN]first boss fight[/GREEN], the one that opens up free roaming of the department. I'll admit, I was expecting people to struggle a lot more than they actually did. Instead, the feedback ended up being overwhelmingly positive. Rather than feeling frustrated, most testers really enjoyed learning the boss' attack patterns and figuring out how to counter them.
+
+While this might sound like a small detail, it actually made me realize what I want the combat to feel like. I want players to feel like they are learning and improving as they play, and that they are rewarded for their efforts. I want them to feel like they are mastering the game, not just mindlessly button-mashing their way through it. After all, the protagonist is supposed to be this super skilled and practically invincible character, so I want the player to feel like a badass, perfectionist fighter. This realization also made me rethink one mechanic I think I'd talked about in previosu devlogs.
+
+Originally, every death was going to be [GREEN]canon[/GREEN], with your previous bodies remaining in the world after every failed attempt. The idea sounded interesting on paper, but the more I thought about the direction I wanted the combat to take, the less it fit. So... that's no longer the plan.
+
+Outside of playtesting, I spent a good chunk of time finishing up more areas. At this point, there are only [GREEN]four rooms left[/GREEN], not counting the transitions between departments and a few sneak peek areas. There are still a handful of backgrounds and props left to create, but compared to where things were a few months ago, the finish line finally feels like it's coming into view.
+
+The second half of the month was dedicated almost entirely to [GREEN]refining the UI and oevrall user experience[/GREEN].
+
+I've always loved diegetic interfaces, so I wanted the menus to feel like they actually belong inside Promoted's world rather than existing outside of it. They're still rough around the edges. You'll immediately notice missing button prompts, placeholder artwork and that... admittedly awful X-ray image I shamelessly grabbed from the internet... but those are of course all temporary. Every placeholder will eventually be replaced with proper in-universe artwork.
+
+You might also notice that the menu footage goes by pretty quickly. That was intentional. I mainly wanted to demonstrate how [GREEN]fast and responsive the navigation feels[/GREEN] when swapping equipment or managing your inventory, while also keeping the videos short enough to preserve both resolution and frame rate.
+
+There's definitely still polish left to do, but I'm genuinely happy with how it's shaping up and I can't wait for everyone to finally experience it firsthand once the demo is available.
+
+Before wrapping things up, there's one last question I wanted to answer this month.
+
+> "Will the game have a New Game+ mode?"
+
+I'm a huge fan of New Game+ modes that actually change the experience through things like new dialogue, altered enemy placements or additional collectibles. They add a ton of replay value when done well.
+
+That said... I think it's still too early to promise anything. Right now the priority is finishing the main experience. If everything goes according to plan, though, I'd absolutely love to explore something along those lines after release.
+
+Well... I guess that's it.
+
+Writing these monthly devlogs has honestly been a lot of fun and I hope you all have enjoyed following the journey over these past few months.
+
+Before I go, I wanted to be transparent about something. Between the summer heat, almost a year of nonstop development and the final push toward the demo, I'm definitely starting to feel the fatigue. Taking a short break in August feels more like something I NEED to do if I want to come back refreshed for the final sprint.
+
+THere's also one more thing I've mostly avoided bringing up lately: I'm still looking for a job. If that changes, development will naturally have to be balanced around work, which could slow things down a little. Hopefully it won't come to that before the demo, but I wanted to be upfront about the possibility.
+
+For now, though, the goal remains the same: [GREEN]have the demo ready by late September[/GREEN]. And if everything falls into place, maybe we'll even have a Steam page ready around the same time.
+
+As always, thank you all for sticking with us throughout development. Every comment, every question and every bit of encouragement genuinely means a lot to both me and Sirde. Seeing people get excited about this world we've been building has been one of the biggest motivations to keep going.
+
+Enjoy your summer, stay cool, grab something cold to drink...
+
+...and hopefully, the next time we meet, you'll finally be playing the demo.
+
+[CYAN]See you in September.[/CYAN]
+`,
+    }
   ],
 };
